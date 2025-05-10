@@ -2,8 +2,8 @@ import streamlit as st
 from ollama import chat
 
 # Streamlit 페이지 설정
-st.set_page_config(page_title="💢 DP vs Greedy - The C++ Civil War", layout="centered")
-st.title("💢 DP vs Greedy - The C++ Civil War")
+st.set_page_config(page_title="💢 DP Master vs Greedy Rebel - The C++ Civil War", layout="centered")
+st.title("💢 DP Master vs Greedy Rebel - The C++ Civil War")
 
 # 세션 상태를 저장하여 대화 기록 유지
 if "chat_history" not in st.session_state:
